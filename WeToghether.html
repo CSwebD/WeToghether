@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WeTogether Questionnaire</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="logo.png" alt="WeTogether Logo">
+    </div>
+    <h1>WeTogether Application Design Research</h1>
+    <p>Developed by Cristian S.</p>
+    <p>This questionnaire aims to gather valuable insights to guide the design of the "WeTogether" application, ensuring it meets the needs of individuals experiencing homelessness and fosters an inclusive, supportive community.</p>
+  </header>
+
+  <main>
+    <form>
+      <!-- Question 1 -->
+      <fieldset>
+        <legend>1. What is your age group?</legend>
+        <input type="radio" name="age" value="Under 18"> Under 18<br>
+        <input type="radio" name="age" value="18-24"> 18-24<br>
+        <input type="radio" name="age" value="25-34"> 25-34<br>
+        <input type="radio" name="age" value="35-44"> 35-44<br>
+        <input type="radio" name="age" value="45-54"> 45-54<br>
+        <input type="radio" name="age" value="55-64"> 55-64<br>
+        <input type="radio" name="age" value="65+"> 65+<br>
+      </fieldset>
+
+      <!-- Question 2 -->
+      <fieldset>
+        <legend>2. What is your gender?</legend>
+        <input type="radio" name="gender" value="Male"> Male<br>
+        <input type="radio" name="gender" value="Female"> Female<br>
+        <input type="radio" name="gender" value="Non-binary/Other"> Non-binary/Other<br>
+        <input type="radio" name="gender" value="Prefer not to say"> Prefer not to say<br>
+      </fieldset>
+
+      <!-- Question 3 -->
+      <fieldset>
+        <legend>3. What is your current living situation?</legend>
+        <input type="radio" name="living_situation" value="Temporary accommodation"> Temporary accommodation<br>
+        <input type="radio" name="living_situation" value="Sleeping rough/outdoors"> Sleeping rough/outdoors<br>
+        <input type="radio" name="living_situation" value="Other"> Other: <input type="text" name="other_living_situation"><br>
+      </fieldset>
+
+      <!-- Question 4 -->
+      <fieldset>
+        <legend>4. Do you currently own or have access to a mobile device?</legend>
+        <input type="radio" name="mobile_access" value="Yes"> Yes<br>
+        <input type="radio" name="mobile_access" value="No"> No<br>
+      </fieldset>
+
+      <!-- Question 5 -->
+      <fieldset>
+        <legend>5. How often do you experience issues with connectivity or charging your device?</legend>
+        <input type="radio" name="connectivity_issues" value="Frequently"> Frequently<br>
+        <input type="radio" name="connectivity_issues" value="Occasionally"> Occasionally<br>
+        <input type="radio" name="connectivity_issues" value="Rarely"> Rarely<br>
+        <input type="radio" name="connectivity_issues" value="Never"> Never<br>
+      </fieldset>
+
+      <!-- Question 6 -->
+      <fieldset>
+        <legend>6. Do you face challenges using mobile applications?</legend>
+        <input type="radio" name="app_challenges" value="No"> No<br>
+        <input type="radio" name="app_challenges" value="Yes"> Yes (please specify): <input type="text" name="challenge_details"><br>
+      </fieldset>
+
+      <!-- Question 7 -->
+      <fieldset>
+        <legend>7. What services are most important to you? (Rank in order of importance: 1 = Most important, 7 = Least important)</legend>
+        <ol>
+          <li><input type="text" name="priority_1" placeholder="Most important"></li>
+          <li><input type="text" name="priority_2"></li>
+          <li><input type="text" name="priority_3"></li>
+          <li><input type="text" name="priority_4"></li>
+          <li><input type="text" name="priority_5"></li>
+          <li><input type="text" name="priority_6"></li>
+          <li><input type="text" name="priority_7" placeholder="Least important"></li>
+        </ol>
+      </fieldset>
+
+      <!-- Question 8 -->
+      <fieldset>
+        <legend>8. What features would make this app useful for you?</legend>
+        <input type="checkbox" name="features" value="Simple navigation"> Simple navigation<br>
+        <input type="checkbox" name="features" value="Offline functionality"> Offline functionality<br>
+        <input type="checkbox" name="features" value="Privacy controls"> Privacy controls<br>
+        <input type="checkbox" name="features" value="Notifications for updates"> Notifications for updates<br>
+        <input type="checkbox" name="features" value="Ability to filter services by location"> Ability to filter services by location<br>
+        <input type="checkbox" name="features" value="Peer-to-peer support groups"> Peer-to-peer support groups<br>
+        <input type="text" placeholder="Other" name="other_features"><br>
+      </fieldset>
+
+      <!-- Question 9 -->
+      <fieldset>
+        <legend>9. What might stop you from using an app like this?</legend>
+        <input type="checkbox" name="barriers" value="Lack of internet or data access"> Lack of internet or data access<br>
+        <input type="checkbox" name="barriers" value="Difficulty understanding the interface"> Difficulty understanding the interface<br>
+        <input type="checkbox" name="barriers" value="Distrust of technology"> Distrust of technology<br>
+        <input type="text" placeholder="Other" name="other_barriers"><br>
+      </fieldset>
+
+      <!-- Question 10 -->
+      <fieldset>
+        <legend>10. How comfortable are you with using mobile apps?</legend>
+        <input type="radio" name="comfort_level" value="Very comfortable"> Very comfortable<br>
+        <input type="radio" name="comfort_level" value="Somewhat comfortable"> Somewhat comfortable<br>
+        <input type="radio" name="comfort_level" value="Neutral"> Neutral<br>
+        <input type="radio" name="comfort_level" value="Somewhat uncomfortable"> Somewhat uncomfortable<br>
+        <input type="radio" name="comfort_level" value="Very uncomfortable"> Very uncomfortable<br>
+      </fieldset>
+
+      <!-- Question 11 -->
+      <fieldset>
+        <legend>11. Would you prefer an app that allows you to remain anonymous?</legend>
+        <input type="radio" name="anonymous" value="Yes"> Yes<br>
+        <input type="radio" name="anonymous" value="No"> No<br>
+        <input type="radio" name="anonymous" value="Not sure"> Not sure<br>
+      </fieldset>
+
+      <!-- Question 12 -->
+      <fieldset>
+        <legend>12. How important is it for the app to provide feedback (e.g., confirmation messages)?</legend>
+        <input type="radio" name="feedback_importance" value="Extremely important"> Extremely important<br>
+        <input type="radio" name="feedback_importance" value="Very important"> Very important<br>
+        <input type="radio" name="feedback_importance" value="Somewhat important"> Somewhat important<br>
+        <input type="radio" name="feedback_importance" value="Not so important"> Not so important<br>
+        <input type="radio" name="feedback_importance" value="Not at all important"> Not at all important<br>
+      </fieldset>
+
+      <!-- Question 13 -->
+      <fieldset>
+        <legend>13. What challenges do you face when trying to access resources or services?</legend>
+        <textarea name="resource_challenges" rows="3"></textarea>
+      </fieldset>
+
+      <!-- Question 14 -->
+      <fieldset>
+        <legend>14. What suggestions do you have for how this app could better meet your needs?</legend>
+        <textarea name="app_suggestions" rows="3"></textarea>
+      </fieldset>
+
+      <!-- Question 15 -->
+      <fieldset>
+        <legend>15. Would you be willing to participate in further research or testing of the app?</legend>
+        <input type="radio" name="participate_research" value="Yes"> Yes<br>
+        <input type="radio" name="participate_research" value="No"> No<br>
+        <input type="radio" name="participate_research" value="Maybe"> Maybe<br>
+      </fieldset>
+
+      <!-- Question 16 -->
+      <fieldset>
+        <legend>16. Would these features (e.g., high-contrast mode, voice guidance) be helpful for you?</legend>
+        <input type="radio" name="accessibility_features" value="Yes"> Yes<br>
+        <input type="radio" name="accessibility_features" value="No"> No<br>
+        <input type="radio" name="accessibility_features" value="Maybe"> Maybe<br>
+      </fieldset>
+
+      <button type="submit">Submit</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>© 2024 WeTogether. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
